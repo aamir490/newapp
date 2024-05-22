@@ -76,10 +76,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: center;
   padding: 4rem 0;
 }
-
+.new{
+  display: flex;
+  padding: 100px;
+}
 .center::before {
   background: var(--secondary-glow);
   border-radius: 50%;
